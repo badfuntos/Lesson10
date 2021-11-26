@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    width: 1920px;
+    height: 723px;
+}
+.block {
+    /* Style for "Прямоуголь" */
+width: 1920px;
+height: 723px;
+background-color: #f9f9f9;
+display: flex; 
+justify-content: center;
+align-items: center; 
+
+h1 {
+    /* Style for "Инструмент" */
+/*position: absolute;*/
+height: 31px;
+color: #000000;
+font-size: 36px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+left: 683px;
+top: 100px;
+align-self: flex-start; 
+/* Text style for "И, нструме" */
+}
+
+span {
+    color: #000000;
+font-size: 18px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+/* Text style for "от 400 руб" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+}
+
+button {
+    /* Style for "Прямоуголь" */
+width: 200px;
+height: 55px;
+border: 1px solid #23bac1;
+}
+.knife1 {
+    /* Style for "Прямоуголь" */
+width: 263px;
+height: 210px;
+background-color: #ffffff;
+margin right: 30px;
+}
+.knife2 {
+    /* Style for "Прямоуголь" */
+width: 263px;
+height: 210px;
+background-color: #ffffff;
+margin: 30px;
+}
+.carpet {
+    /* Style for "Прямоуголь" */
+width: 263px;
+height: 210px;
+background-color: #ffffff;
+margin: 30px;
+}
+.ruler {
+    /* Style for "Прямоуголь" */
+width: 263px;
+height: 210px;
+background-color: #ffffff;
+margin: 30px;
+}
+p {
+text-align: center;
+}
