@@ -13,10 +13,10 @@ background-color: #f9f9f9;
 display: flex; 
 justify-content: center;
 align-items: center; 
-
+}
 h1 {
     /* Style for "Инструмент" */
-/*position: absolute;*/
+position: absolute;
 height: 31px;
 color: #000000;
 font-size: 36px;
@@ -30,9 +30,14 @@ top: 100px;
 align-self: flex-start; 
 /* Text style for "И, нструме" */
 }
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+ }
 
 span {
-    color: #000000;
+color: #000000;
 font-size: 18px;
 font-weight: 700;
 font-style: normal;
@@ -40,10 +45,13 @@ letter-spacing: normal;
 line-height: normal;
 text-align: center;
 /* Text style for "от 400 руб" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: center;
+margin-top: 22px;
+margin-bottom: 24px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+justify-content: space-between;
+align-items: center;
 }
 
 button {
@@ -51,6 +59,13 @@ button {
 width: 200px;
 height: 55px;
 border: 1px solid #23bac1;
+color: #23BAC1;
+margin-top: 24px;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto
+
 }
 .knife1 {
     /* Style for "Прямоуголь" */
